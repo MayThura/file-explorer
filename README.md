@@ -1,10 +1,10 @@
-#File and Directory Management Web App
+# File and Directory Management Web App
 
-##Project Description
+## Project Description
 
 This project introduces a web-based interface for managing files and directories through a set of predefined commands. It simplifies user interaction by providing an input box for commands and buttons for specific operations, facilitating common file system tasks like adding, deleting, linking, moving, and changing properties of files and directories.
 
-##Features
+## Features
 
 1. User Input Box: Accepts commands related to file and directory operations.
 2. Operation Buttons:
@@ -26,7 +26,7 @@ Example: /fileName hide or /directoryName hide
 - Input Validation: Ensures inputs are valid paths and handles duplicates and non-existent directories.
 - Function Validation: Validates the appropriateness of the operation based on the input.
 
-##Technology and Environment
+## Technology and Environment
 
 - React JS: Used for creating the interactive web page and managing state.
 - Styled-components: Utilized for dynamic styling, enhancing the UI based on operation outcomes.
