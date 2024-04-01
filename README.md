@@ -11,15 +11,15 @@ This project introduces a web-based interface for managing files and directories
    
 - Add File: Adds a new file to the given path. Files are displayed in gray. Example: /fileName
 - Add Directory: Creates a new directory. Directories are added similarly to files.
-Example: /directoryName
+Example: `/directoryName`
 - Delete: Removes a file or directory, including any contents if it's a directory.
-Example: /fileName or /directoryName
+Example: `/fileName` or `/directoryName`
 - Link: Creates a symbolic link for a file or directory to another location. Linked items are shown in red.
-Example: /sourcePath /destinationPath
+Example: `/sourcePath /destinationPath`
 - Move: Moves a file or directory to a new location.
-Example: /sourcePath /destinationPath
+Example: `/sourcePath /destinationPath`
 - Change: Alters the property of a file or directory (currently supports "hide" property).
-Example: /fileName hide or /directoryName hide
+Example: `/fileName hide` or `/directoryName hide`
 
 3. Exceptions Handled
   
